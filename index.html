@@ -20,62 +20,97 @@
 </nav>
 
 <!-- Hero Section -->
-<section class="hero text-center">
+<section class="hero d-flex align-items-center">
     <div class="container">
-        <h1>Hello, I'm Sumaiya Akter Noon</h1>
-        <p>Beginner Web Developer</p>
-        <button class="btn btn-primary" onclick="showMessage()">Contact Me</button>
-    </div>
-</section>
-<!-- About Me -->
-<section class="container my-5">
-    <h2 class="text-center mb-4">About Me</h2>
-    <p class="text-center">
-        My name is <strong>Sumaiya Akter Noon</strong>. I am a beginner web developer with a strong interest
-        in front-end development. I am learning how to build responsive and user-friendly websites using
-        HTML, CSS, JavaScript, and Bootstrap. I enjoy learning new technologies and improving my coding skills.
-    </p>
-</section>
-
-<!-- Skills -->
-<section class="container my-5">
-    <h2 class="text-center mb-4">My Skills</h2>
-<div class="row text-center">
-    <div class="col-md-3 mb-2">HTML5</div>
-    <div class="col-md-3 mb-2">CSS3</div>
-    <div class="col-md-3 mb-2">JavaScript (Basic)</div>
-    <div class="col-md-3 mb-2">Bootstrap 5</div>
-</div>
-</section>
-
-<!-- Projects -->
-<section class="bg-light py-5">
-    <div class="container">
-        <h2 class="text-center mb-4">Projects</h2>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio Website</h5>
-                        <p class="card-text">
-                            A responsive personal portfolio website built using HTML, CSS, JavaScript, and Bootstrap.
-                        </p>
-                    </div>
-                </div>
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <h1 class="fw-bold">Sumaiya Akter Noon</h1>
+                <p class="lead">
+                    Beginner Front-End Web Developer
+                </p>
+                <p>
+                    Passionate about building clean, responsive, and user-friendly websites
+                    using modern web technologies.
+                </p>
+                <button class="btn btn-primary me-2" onclick="showMessage()">Contact Me</button>
             </div>
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Simple Landing Page</h5>
-                        <p class="card-text">
-                            A clean landing page design using Bootstrap components and custom CSS.
-                        </p>
-                    </div>
-                </div>
+            <div class="col-md-5 text-center">
+                <img src="https://via.placeholder.com/300"
+                     class="img-fluid rounded-circle shadow"
+                     alt="Profile Image">
             </div>
         </div>
     </div>
 </section>
+
+<!-- About Me -->
+<section class="container my-5">
+    <h2 class="section-title text-center">About Me</h2>
+    <p class="text-center mt-3">
+        I am Sumaiya Akter Noon, a beginner front-end web developer with a strong interest in
+        web design and user interface development. I am currently learning and practicing
+        HTML, CSS, JavaScript, and Bootstrap to create responsive and visually appealing websites.
+        I am motivated to continuously improve my skills and work on real-world projects.
+    </p>
+</section>
+
+<!-- Skills -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-4">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-3 mb-3">
+                <div class="skill-card">HTML5</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="skill-card">CSS3</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="skill-card">JavaScript (Basic)</div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <div class="skill-card">Bootstrap 5</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Projects -->
+<section class="bg-light py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-4">Projects</h2>
+        <div class="row g-4">
+            
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Portfolio Website</h5>
+                        <p class="card-text">
+                            A responsive personal portfolio website developed using HTML, CSS,
+                            JavaScript, and Bootstrap. Designed to showcase skills and projects
+                            in a clean and professional layout.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card shadow-sm h-100">
+                    <div class="card-body">
+                        <h5 class="card-title fw-semibold">Landing Page Design</h5>
+                        <p class="card-text">
+                            A modern and responsive landing page created using Bootstrap components
+                            and custom CSS, focusing on layout structure and visual clarity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <!-- Contact -->
 <section class="container my-5">
     <h2 class="text-center mb-4">Contact Information</h2>
@@ -85,9 +120,16 @@
 </section>
 
 <!-- Footer -->
-<footer class="bg-dark text-white text-center p-3">
-    © 2026 Sumaiya Akter Noon
+<footer class="footer text-center">
+    <p>© 2026 Sumaiya Akter Noon</p>
+    <p>
+        Email:
+        <a href="mailto:sumaiya.noon.17@gmail.com">
+            sumaiya.noon.17@gmail.com
+        </a>
+    </p>
 </footer>
+
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
@@ -96,4 +138,5 @@
 <script src="script.js"></script>
 </body>
 </html>
+
 
