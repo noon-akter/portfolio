@@ -1,12 +1,31 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
 .hero {
-    background-color: #f8f9fa;
-    padding: 80px 0;
+    min-height: 90vh;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
 }
 
-.hero h1 {
-    font-size: 40px;
-}
-
-section h2 {
+.section-title {
     font-weight: 600;
+}
+
+.skill-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.footer {
+    background-color: #212529;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer a {
+    color: #adb5bd;
+    text-decoration: none;
 }
